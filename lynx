@@ -127,7 +127,7 @@ local loadingMessages = {
 }
 
 -- Variables pour le chargement
-local loadingTime = 180 -- 3 minutes en secondes
+local loadingTime = 100 -- 3 minutes en secondes
 local startTime = tick()
 local messageInterval = loadingTime / #loadingMessages
 local currentMessageIndex = 1
